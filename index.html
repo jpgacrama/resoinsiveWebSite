@@ -15,7 +15,7 @@
           alt="A cute orange cat lying on its back." class="smaller-image thick-green-border">
       </a>
     
-      <div>
+      <div class="silver-background">
         <p>Things cats love:</p>
         <ul>
           <li>cat nip</li>
@@ -29,7 +29,7 @@
           <li>other cats</li>
         </ol>
       </div>
-      <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+      <form action="https://www.freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
         <button type="submit">Submit</button>
         <input type="text" placeholder="cat photo URL" required>
         <label for="indoor"> 
@@ -66,7 +66,11 @@
       border-color: green;
       border-width: 10px;
       border-style: solid;
-      border-radius: 10px;
+      border-radius: 50%;
+    }
+
+    .silver-background {
+      background-color: silver;
     }
   
     p {
